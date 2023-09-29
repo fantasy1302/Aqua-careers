@@ -1,0 +1,112 @@
+@import "settings/color.scss";
+@import "settings/mixin.scss";
+@import "settings/fonts-and-botton.scss";
+@import "settings/flex.scss";
+
+.careers-apply-job-info {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    @include break(575) {
+    align-items: start;
+    flex-direction: column
+    }
+}
+
+.careers-apply-title {
+    @extend %font-2-1;
+    color: $haliteBlue;
+    text-align: center;
+    margin-bottom: 98px;
+    @include break(1399) {
+    margin-bottom: 100px;
+    }
+    @include break(991) {
+    margin-bottom: 50px;
+    }
+    @include break(767) {
+    max-width: 321px;
+    margin: 0 auto 50px;
+    }
+}
+
+.careers-apply-row {
+    @extend %flex-container-center-just;
+    gap: 21px;
+    @include break(1399) {
+    gap: 40px;
+    }
+    @include break(991) {
+    gap: 12px;
+    }
+}
+
+.careers-apply-row:first-of-type {
+    margin-bottom: 29px;
+    @include break(1399) {
+    margin-bottom: 30px;
+    }
+    @include break(991) {
+    margin-bottom: 19px;
+    }
+    @include break(767) {
+    margin-bottom: 14px;
+    }
+}
+
+.careers-apply-card {
+    @extend %flex-container-between;
+    background: $lotion;
+    border-radius: 15px;
+    padding: 28px 33px;
+    width: 50%;
+    max-width: 529px;
+    @include break(1399) {
+    max-width: 538px;
+    }
+    @include break(1199) {
+    max-width: 450px;
+    width: 47%;
+    padding: 29px 28px 35px;
+    }
+    @include break(991) {
+     padding: 14px 17px;
+    }
+    @include break(767) {
+    width: 100%;
+    max-width: 100%;
+    }
+    @include break(575) {
+    padding: 16px 15.5px
+    }
+}
+
+.careers-apply-position {
+    @extend %font-7-1;
+    color: $haliteBlue;
+}
+
+.careers-apply-format {
+    @extend %font-11-1;
+    color: $lightGray;
+}
+
+.careers-apply-button {
+    @extend %font-11-1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: $brightBlue;
+    &::after {
+    content: '';
+    position: absolute;
+    background-image: url(/assets/images/careers_apply_arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position-y: 50%;
+    background-position-x: right;
+    width: 15px;
+    height: 10px;
+    right: -11px;
+    }
+}

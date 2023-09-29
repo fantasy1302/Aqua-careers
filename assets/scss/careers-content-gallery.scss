@@ -1,0 +1,20 @@
+@import "settings/color.scss";
+@import "settings/mixin.scss";
+@import "settings/fonts-and-botton.scss";
+@import "settings/flex.scss";
+
+.careers-gallery-section {
+    @extend %flex-container;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.careers-gallery-item {
+    flex-basis: 33.33%;
+}
+
+.careers-gallery-item img{
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+}

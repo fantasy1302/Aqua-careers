@@ -1,0 +1,61 @@
+$brightBlue: #2D9DCF;
+$white: #ffffff;
+$freezingVapor: #E0F1F8;
+$grey: #757575;
+$black: #000000;
+$haliteBlue: #07213F;
+$pickledBluewood: #32475E;
+$freshSalmon: #FF7A68;
+$kinglyCloud: #DFDFDF;
+$ogreOdor: #fe5842;
+$aliceBlue: #F3F9FC;
+$whitesmoke: #F9F9F9;
+$lynch: #5B7088;
+$pacificBlue: #9AD6F1;
+$grayBlue: #C4DAE2;
+$blueOpas: #A1D0E5;
+$opasWite: #EAF2F5;
+$mobMenuLangBg: #606060;
+$bgLangUl: #e6e6e6;
+$menuTitle: #828282;
+$colorBorderMenu: #dfdfdf;
+$progressColor: #f2f2f2;
+$lightGray:#919294;
+$lotion:#fbfbfb;
+$lightBlue: #D1F1FF;
+$almostBlack:#131825;
+$darkGrey:#CBCDDB;
+$blueBorder: #2D9DCF;
+
+%blue-gradient-color {
+  background: rgb(48,134,172);
+  background: linear-gradient(90deg, rgba(48,134,172,1) 0%, rgba(9,197,255,1) 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 170%;
+  -webkit-animation: hue 3s infinite linear;
+}
+
+
+%light-blue-text-gradient-color {
+  background: linear-gradient(90deg, #2D9DCF -6.88%, #3086AC -6.87%, #09C5FF 77.09%);
+  background-clip: border-box;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+%sky-blue-text-gradient-color {
+  background: linear-gradient(90deg, #BBEAFF -6.88%, #29BDFF 37.89%, #9BE8FF 121.41%);
+  background-clip: border-box;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+%light-blue-text-gradient-color {
+  background: linear-gradient(90deg, #2D9DCF -6.88%, #3086AC -6.87%, #09C5FF 77.09%);
+  background-clip: border-box;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}

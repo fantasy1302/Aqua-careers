@@ -1,0 +1,136 @@
+@import "settings/color.scss";
+@import "settings/mixin.scss";
+@import "settings/fonts-and-botton.scss";
+@import "settings/flex.scss";
+
+
+.careers-stand-out {
+    background: $brightBlue;
+    border-radius: 16px;
+    @include break(575) {
+        border-radius: 0;
+    }
+}
+
+
+.careers-stand-out-info-section {
+    margin: 66px auto 69px auto;
+    @include break(1399) {
+    margin: 63px auto 38px auto;
+    }
+    @include break(1199) {
+    margin:63px auto 52px auto;
+    }
+    @include break(991) {
+    margin: 61px auto 45px auto;
+    }
+    @include break(767) {
+    margin: 49px auto 54px auto;
+    }
+    @include break(575) {
+    margin: 27px auto 28px auto;
+    }
+}
+
+.careers-stand-out-card {
+    width: 534px;
+    background: $white;
+    border-radius: 20px;
+    padding: 45px 42px;
+    @include break(1199) {
+    padding: 45px 38px;
+    }
+    @include break(1199) {
+     width: 452px;
+     padding: 41px 35px;
+    }
+    @include break(991) {
+    width: 338px;
+    padding: 38px 18px;
+    }
+    @include break(767) {
+    width: 100%;
+    padding: 33px 27px;
+    }
+    @include break(575) {
+    padding: 20px 24px 26px;
+    }
+}
+
+.careers-stand-out-card img {
+    max-width: 40px;
+    margin-bottom: 24px;
+    @include break(991) {
+    max-width: 32px;
+    }
+    @include break(767) {
+    margin-bottom: 18px;
+    }
+    @include break(575) {
+    margin-bottom: 17px;
+    max-width: 21px;
+    }
+}
+
+.careers-stand-out-title {
+    color: $white;
+    @extend %font-2-1;
+    text-align: center;
+    margin-bottom: 20px;
+    @include break(991) {
+    margin-bottom: 14px;
+    }
+}
+
+.careers-stand-out-header {
+    @extend %font-4-1;
+    color: $haliteBlue;
+    margin-bottom: 18px;
+    @include break(1199) {
+    margin-bottom: 20px;
+    }
+    @include break(991) {
+    margin-bottom: 18px;
+    }
+    @include break(991) {
+    margin-bottom: 18px;
+    }
+    @include break(767) {
+    margin-bottom: 10px;
+    }
+    @include break(575) {
+    margin-bottom: 6px;
+    }
+}
+
+.careers-stand-out-text {
+    @extend %font-10-1;
+    color: $white;
+    text-align: center;
+}
+
+.careers-stand-out-row {
+    @extend %flex-container;
+    justify-content: center;
+    gap: 32px;
+    margin: 70px auto;
+    @include break(1399) {
+    gap: 48px;
+    }
+    @include break(1199) {
+    gap: 32px;
+    margin: 100px auto;
+    }
+    @include break(991) {
+    gap: 19px;
+    margin: 60px auto;
+    }
+    @include break(575) {
+    margin: 50px auto;
+    }
+}
+
+.careers-stand-out-description {
+    @extend %font-11-1;
+    color: $lynch;
+}

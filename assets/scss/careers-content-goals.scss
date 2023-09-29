@@ -1,0 +1,95 @@
+@import "settings/color.scss";
+@import "settings/mixin.scss";
+@import "settings/fonts-and-botton.scss";
+@import "settings/flex.scss";
+
+.careers-goals-container {
+    background-image: url('/assets/images/goals_background.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    @extend %flex-column-align-center;
+}
+
+.careers-goals-section .container {
+    @include break(767) {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    }
+}
+
+.careers-goals-info-section {
+    background-color: $aliceBlue;
+    border-radius: 16.67px;
+    padding: 77px 214px;
+    text-align: center;
+    max-width: 1091px;
+    margin: 530px auto 0;
+    @extend %flex-container-justify-center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    @include break(1399) {
+    max-width: 1023px;
+    padding: 77px 180px;
+    margin: 200px auto 0;
+    }
+    @include break(1199) {
+    max-width: 858px;
+    padding: 59px 172px 70px;
+    margin: 250px auto 0;
+    }
+    @include break(991) {
+    max-width: 629px;
+    padding: 51px 82px;
+    margin: 185px auto 0;
+    }
+    @include break(767) {
+    max-width: 516px;
+    padding: 33px 58px;
+    margin: 153px auto 0;
+    }
+    @include break(575) {
+    max-width: 100%;
+    margin: 80px 12px 0;
+    padding: 29px 18px;
+    align-items: start;
+    text-align: left;
+    }
+}
+
+.careers-goals-mission-header {
+    @extend %font-10-2;
+    color: $white;
+    background: $brightBlue;
+    border-radius: 23px;
+    padding: 7px 17px;
+    width: fit-content;
+    margin-bottom: 30px;
+    @include break(767) {
+    margin-bottom: 20px;
+    }
+    @include break(575) {
+    margin-bottom: 14px;
+    }
+}
+
+.careers-goals-title {
+    @extend %font-2-1;
+    color: $brightBlue;
+    margin-bottom: 30px;
+    @include break(1199) {
+    margin-bottom: 20px;
+    }
+    @include break(767) {
+    margin-bottom: 16px;
+    }
+    @include break(575) {
+    margin-bottom: 14px;
+    }
+}
+
+.careers-goals-description {
+    @extend %font-10-1;
+    color: $lynch;
+}

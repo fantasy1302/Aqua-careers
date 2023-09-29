@@ -1,0 +1,75 @@
+@import "settings/color.scss";
+@import "settings/mixin.scss";
+@import "settings/fonts-and-botton.scss";
+@import "settings/flex.scss";
+
+.careers-features-info-section {
+    max-width: 1100px;
+    margin: 0 auto -70px;
+    text-align: center;
+    @extend %flex-column-align-center;
+}
+
+.careers-features-title {
+    @extend %font-2-1;
+    color: $haliteBlue;
+    text-align: center;
+    margin-bottom: 100px;
+    @include break(991) {
+    margin-bottom: 70px;
+    }
+    @include break(767) {
+    margin-bottom: 50px;
+    max-width: 281px;
+    }
+}
+
+.careers-features-row {
+    @extend %flex-container;
+    justify-content: center;
+    @include break(991) {
+    margin-bottom: 70px;
+    }
+    @include break(767) {
+    margin-bottom: 60px;
+    }
+}
+
+.careers-feature {
+    @extend %flex-start-column-align-center-start;
+    flex-basis: 33%;
+    text-align: center;
+    @include break(767) {
+    flex-basis: 50%;
+    }
+    @include break(575) {
+    flex-basis: 100%;
+    }
+}
+
+.careers-feature:not(:nth-last-child(-n+2)) {
+    margin-bottom: 120px;
+    @include break(575) {
+    margin-bottom: 60px;
+    }
+}
+
+.careers-feature:nth-last-child(2) {
+    @include break(575) {
+    margin-bottom: 60px;
+    }
+}
+
+.careers-feature-title {
+    @extend %font-16-1;
+    color: $brightBlue;
+}
+
+.careers-feature-description {
+    @extend %font-11-1;
+    color: $lynch;
+    max-width: 296px;
+    @include break(575) {
+    max-width: 220px;
+    }
+}

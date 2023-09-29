@@ -1,0 +1,1553 @@
+@import "color.scss";
+@import "mixin.scss";
+
+%font-1-1 {
+  //Font 1.1
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 63px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 44px;
+    line-height: 58px;
+  }
+  @include break(991) {
+    font-size: 34px;
+    line-height: 45px;
+  }
+  @include break(767) {
+    font-size: 30px;
+    line-height: 39px;
+  }
+  @include break(575) {
+    line-height: 38px;
+  }
+}
+%font-2-1 {
+  //Font 2.1
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 34px;
+    line-height: 45px;
+  }
+  @include break(991) {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  @include break(767) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+%font-3-1 {
+  //Font 3.1
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  @include break(991) {
+    font-size: 17px;
+    letter-spacing: 0.16px;
+  }
+}
+%font-4-1 {
+  //Font 4.1
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  @include break(991) {
+    font-size: 17px;
+    letter-spacing: 0.16px;
+  }
+  @include break(767) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  @include break(575) {
+    font-size: 17px;
+    line-height: 26px;
+  }
+}
+%font-5-1 {
+  //Font 5.1
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  @include break(991) {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.16px;
+  }
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  @include break(575) {
+    font-size: 17px;
+    line-height: 26px;
+  }
+}
+%font-6-1 {
+  //Font 6.1
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 20px;
+    letter-spacing: 0.16px;
+  }
+  @include break(991) {
+    font-size: 26px;
+    line-height: 34px;
+    letter-spacing: 0.08px;
+  }
+  @include break(767) {
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+  }
+}
+%font-7-1 {
+  //Font 7.1
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+  }
+  @include break(991) {
+    font-size: 17px;
+  }
+}
+%font-8-1 {
+  //Font 8.1
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+  }
+  @include break(991) {
+    font-size: 17px;
+  }
+  @include break(575) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-8-2 {
+  //Font 8.2
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+  }
+  @include break(991) {
+    font-size: 17px;
+  }
+  @include break(575) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-8-2 {
+  //Font 8.2
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+  }
+  @include break(991) {
+    font-size: 17px;
+  }
+  @include break(575) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-8-2 {
+  //Font 8.2
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+  }
+  @include break(991) {
+    font-size: 17px;
+  }
+  @include break(575) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-8-2 {
+  //Font 8.2
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+  }
+  @include break(991) {
+    font-size: 17px;
+  }
+  @include break(575) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-9-1 {
+  //Font 9.1
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+  }
+  @include break(991) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(767) {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  @include break(575) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-10-1 {
+  //Font 10.1
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-10-2 {
+  //Font 10.2
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-11-1 {
+  //Font 11.1
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(991) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-11-2 {
+  //Font 11.2
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(991) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-12-1 {
+  //Font 12.1
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(1199) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  @include break(575) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+%font-13-1 {
+  //Font 13.1
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  @include break(575) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+%font-13-2 {
+  //Font 13.2
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  @include break(575) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+%font-14-1 {
+  //Font 14.1
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(1199) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(991) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  @include break(575) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+%font-15-1 {
+  //Font 15.1
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(991) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-16-1 {
+  //Font 16.1
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 91px;
+  letter-spacing: 0.08px;
+  @include break(991) {
+    font-size: 56px;
+    line-height: 73px;
+  }
+}
+%font-17-1 {
+  //Font 17.1
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(1199) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(991) {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  @include break(767) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  @include break(575) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-18-1 {
+  //Font 18.1
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(991) {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  @include break(767) {
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+  }
+  @include break(575) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-19-1 {
+  //Font 19.1
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  @include break(991) {
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+  }
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-20-1 {
+  //Font 20.1
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  @include break(991) {
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+  }
+  @include break(767) {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.08px;
+  }
+}
+%font-21-1 {
+  //Font 21.1
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(991) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-22-1 {
+  //Font 22.1
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.16px;
+  @include break(991) {
+    font-size: 9px; 
+    line-height: 12px;
+  }
+  @include break(767) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  @include break(575) {
+    font-size: 9px;
+    line-height: 12px;
+  }
+}
+%font-23-1 {
+  //Font 23.1
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  @include break(991) {
+    font-size: 26px;
+    line-height: 34px;
+    letter-spacing: 0.16px;
+  }
+  @include break(767) {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.08px;
+  }
+}
+%font-24-1 {
+  //Font 24.1
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(575) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-25-1 {
+  //Font 25.1
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 63px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 44px;
+    line-height: 58px;
+  }
+  @include break(991) {
+    font-size: 34px;
+    line-height: 45px;
+  }
+  @include break(767) {
+    font-size: 56px;
+    line-height: 73px;
+  }
+}
+%font-26-1 {
+  //Font 26.1
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(575) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-26-2 {
+  //Font 26.2
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(575) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-27-1 {
+  //Font 27.1
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.16px;
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  @include break(575) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+%font-27-2 {
+  //Font 27.2
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.16px;
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  @include break(575) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+%font-28-1 {
+  //Font 28.1
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 34px;
+    line-height: 45px;
+  }
+  @include break(991) {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  @include break(767) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  @include break(575) {
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+  }
+}
+%font-29-1 {
+  //Font 29.1
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+  }
+  @include break(575) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-30-1 {
+  //Font 30.1
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(1199) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  @include break(575) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+%font-30-2 {
+  //Font 30.2
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(1199) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  @include break(575) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+%font-31-1 {
+  //Font 31.1
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(991) {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0.16px;
+  }
+}
+%font-32-1 {
+  //Font 32.1
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  @include break(991) {
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+  }
+  @include break(767) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  @include break(575) {
+    font-size: 17px;
+    line-height: 26px;
+  }
+}
+%font-33-1 {
+  //Font 33.1
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+  }
+  @include break(991) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(767) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  @include break(575) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-34-1 {
+  //Font 34.1
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(1199) {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  @include break(991) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  @include break(575) {
+    font-size: 17px;
+    line-height: 26px;
+  }
+}
+%font-35-1 {
+  //Font 35.1
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.16px;
+  @include break(1199) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  @include break(991) {
+    font-size: 9px;
+    line-height: 12px;
+  }
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-36-1 {
+  //Font 36.1
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 34px;
+    line-height: 45px;
+  }
+  @include break(991) {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  @include break(767) {
+    font-size: 56px;
+    line-height: 73px;
+  }
+  @include break(575) {
+    font-size: 30px;
+    line-height: 39px;
+  }
+}
+%font-37-1 {
+  //Font 37.1
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(1199) {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  @include break(991) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(767) {
+    font-size: 17px;
+    line-height: 26px;
+  }
+}
+%font-37-2 {
+  //Font 37.1
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(1199) {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  @include break(991) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(767) {
+    font-size: 17px;
+    line-height: 26px;
+  }
+}
+%font-38-1 {
+  //Font 38.1
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.16px;
+  @include break(767) {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  @include break(530) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-39-1 {
+  //Font 39.1
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.16px;
+  @include break(991) {
+    font-size: 9px;
+    line-height: 12px;
+  }
+  @include break(767) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  @include break(575) {
+    font-size: 9px;
+    line-height: 12px;
+  }
+}
+%font-39-2 {
+  //Font 39.2
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 16px;
+  letter-spacing: 0.16px;
+  @include break(991) {
+    font-size: 9px;
+    line-height: 12px;
+  }
+  @include break(767) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  @include break(575) {
+    font-size: 9px;
+    line-height: 12px;
+  }
+}
+%font-40-1 {
+  //Font 40.1
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.16px;
+  @include break(991) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  @include break(767) {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  @include break(575) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-41-1 {
+  //Font 41.1
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.16px;
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-42-1 {
+  //Font 42.1
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.16px;
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+}
+%font-43-1 {
+  //Font 43.1
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(767) {
+    font-size: 24px;@include break(575) {
+    line-height: 26px;
+  }
+    line-height: 32px;
+  }
+}
+%font-44-1 {
+  //Font 44.1
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(1199) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(767) {
+    font-size: 17px;
+    line-height: 26px;
+  }
+}
+%font-45-1 {
+  //Font 45.1
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+}
+%font-46-1 {
+  //Font 46.1
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 91px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 44px;
+    line-height: 58px;
+  }
+  @include break(991) {
+    font-size: 34px;
+    line-height: 45px;
+  }
+  @include break(767) {
+    font-size: 56px;
+    line-height: 73px;
+  }
+}
+%font-47-1 {
+  //Font 47.1
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 63px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 34px;
+    line-height: 45px;
+  }
+  @include break(767) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+%font-48-1 {
+  //Font 48.1
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(1199) {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  @include break(991) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  @include break(767) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(575) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+%font-48-2 {
+  //Font 48.2
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(1199) {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  @include break(991) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  @include break(767) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(575) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+%font-49-1 {
+  //Font 49.1
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+  }
+  @include break(991) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+%font-50-1 {
+  //Font 50.1
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(991) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(767) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+%font-51-1 {
+  //Font 51.1
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(991) {
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+  }
+}
+
+
+%font-52-1 {
+  //Font 51.1
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 91px;
+  letter-spacing: 0.08px;
+  @include break(991) {
+    font-size: 56px;
+    line-height: 73px;
+  }
+  @include break(575) {
+    font-size: 30px;
+    line-height: 39px;
+  }
+}
+%font-53-1 {
+  //Font 53.1
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.16px;
+  @include break(1199) {
+    line-height: 32px;
+  }
+  @include break(991) {
+    font-size: 15px;
+    line-height: 21px;
+  }
+  @include break(767) {
+    line-height: 23px;
+  }
+}
+
+%font-54-1 {
+  //Font 54.1
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.16px;
+  @include break(991) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  @include break(575) {
+    line-height: 16px;
+  }
+}
+
+%font-55-1 {
+  //Font 55.1
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(1199) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  @include break(575) {
+    font-size: 17px;
+    line-height: 26px;
+  }
+}
+
+%font-55-2 {
+  //Font 55.2
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(1199) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  @include break(575) {
+    font-size: 17px;
+    line-height: 26px;
+  }
+}
+
+%font-56-1 {
+  //Font 56.1
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    line-height: 32px;
+  }
+  @include break(991) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  @include break(575) {
+    font-size: 17px;
+    letter-spacing: 0.16px;
+  }
+}
+
+%font-57-1 {
+  //Font 57.1
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.16px;
+  @include break(1199) {
+    line-height: 32px;
+  }
+  @include break(991) {
+    line-height: 26px;
+  }
+  @include break(575) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+%font-57-2 {
+  //Font 57.2
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 23px;
+  letter-spacing: 0.16px;
+  @include break(1199) {
+    line-height: 32px;
+  }
+  @include break(991) {
+    line-height: 26px;
+  }
+  @include break(575) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+%font-58-1 {
+  //Font 58.1
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(991) {
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+  }
+  @include break(767) {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.08px;
+  }
+  @include break(575) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+%font-59-1 {
+  //Font 59.1
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 63px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 44px;
+    line-height: 58px;
+  }
+  @include break(991) {
+    font-size: 34px;
+    line-height: 45px;
+  }
+  @include break(767) {
+    font-size: 48px;
+    line-height: 63px;
+  }
+  @include break(575) {
+    font-size: 20px;
+    line-height: 45px;
+  }
+}
+
+%font-59-2 {
+  //Font 59.2
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 63px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 44px;
+    line-height: 58px;
+  }
+  @include break(991) {
+    font-size: 34px;
+    line-height: 45px;
+  }
+  @include break(767) {
+    font-size: 48px;
+    line-height: 63px;
+  }
+  @include break(575) {
+    font-size: 34px;
+    line-height: 45px;
+  }
+}
+
+%font-60-1 {
+  //Font 60.1
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.16px;
+  @include break(1199) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(991) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+%font-61-1 {
+  //Font 61.1
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  @include break(991) {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.16px;
+  }
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  @include break(575) {
+    line-height: 16px;
+  }
+}
+
+%font-62-1 {
+  //Font 62.1
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  @include break(1199) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include break(991) {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  @include break(767) {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+
+%font-63-1 {
+  //Font 63.1
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.16px;
+  @include break(991) {
+    font-size: 12px;
+    line-height: 26px;
+  }
+  @include break(767) {
+    line-height: 16px;
+  }
+}
+
+%font-64-1 {
+  //Font 64.1
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(991) {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  @include break(767) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+%font-65-1 {
+  //Font 65.1
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 63px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 44px;
+    line-height: 58px;
+  }
+  @include break(991) {
+    font-size: 34px;
+    line-height: 45px;
+  }
+  @include break(767) {
+    font-size: 56px;
+    line-height: 73px;
+  }
+  @include break(575) {
+    font-size: 30px;
+    line-height: 39px;
+  }
+}
+
+%font-66-1 {
+  //Font 66.1
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.08px;
+  @include break(1199) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  @include break(767) {
+    font-size: 17px;
+    letter-spacing: 0.16px;
+  }
+}
+
+%font-67-1 {
+  //Font 67.1
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.08px;
+  @include break(767) {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.16px;
+  }
+}
+
+%font-67-2 {
+  //Font 67.2
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 23px;
+  letter-spacing: 0.08px;
+  @include break(767) {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.16px;
+  }
+}
+
+
+%font-70-1 {
+  //Font 70.1
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.12px;
+  @include break(991) {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.17px;
+  }
+  @include break(767) {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.15px;
+  }
+  @include break(575) {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.15px;
+  }
+}
+
+%font-70-2 {
+  //Font 70.2
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0.12px;
+  @include break(991) {
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0.17px;
+  }
+  @include break(767) {
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 23px;
+    letter-spacing: 0.15px;
+  }
+}

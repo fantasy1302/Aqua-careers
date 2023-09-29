@@ -1,0 +1,188 @@
+@import "settings/color.scss";
+@import "settings/mixin.scss";
+@import "settings/fonts-and-botton.scss";
+@import "settings/flex.scss";
+
+.careers-benefits-section {
+    text-align: center;
+}
+
+
+
+.careers-benefits-section .container {
+    padding: 0;
+    @include break(1399) {
+        margin: 0;
+        max-width: 100%;
+    }
+    @include break(991) {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+}
+
+.careers-benefits-section .container {
+    @include break(767) {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    }
+}
+
+.careers-benefits-container {
+    background: $brightBlue;
+    border-radius: 17px;
+    padding: 58px 110px 67px;
+    @include break(1399) {
+    padding: 53px 57px 57px 43px;
+    border-radius: 0;
+    }
+    @include break(1199) {
+    padding: 49px 28px 50px;
+    }
+    @include break(991) {
+        padding: 41px 17px 43px;
+        max-width: 696px;
+    margin: 0 auto;
+    border-radius: 17px;
+        }
+    @include break(767) {
+        padding: 36px 30px 32px;
+        
+    }
+
+    @include break(575) {
+    padding: 36px 0 24px 12px;
+    border-radius: 0;
+    }
+}
+
+.careers-benefits-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.careers-benefits-info-section {
+    margin-bottom: 100px;
+    @include break(991) {
+    margin-bottom: 50px;
+    }
+}
+
+.careers-benefits-title {
+    @extend %font-2-1;
+    color: $white;
+    margin-bottom: 12px;
+    @include break(991) {
+    margin-bottom: 14px;
+    }
+}
+
+.careers-benefits-text {
+    @extend %font-10-1;
+    color: $white;
+
+}
+
+.careers-benefits-image-container {
+    @include break(767) {
+    width: 40px;
+    padding: 7px 8px;
+    background: $white;
+    box-shadow: -1px 2px 7px rgba(45, 157, 207, 0.19);
+    border-radius: 6px;
+    height: 40px;
+    margin-bottom: 14px;
+    }
+    @include break(575) {
+    margin-bottom: 12px;
+    }
+}
+
+.careers-benefits-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 21px;
+    flex-wrap: wrap;
+    @include break(1199) {
+    gap: 7px;
+    }
+    @include break(991) {
+    gap: 11px;
+    }    
+    @include break(767) {
+    gap: 10px;
+    
+    }
+    @include break(575) {
+    overflow: scroll;
+    flex-wrap: nowrap;
+    gap: 13px;
+    scrollbar-color: transparent transparent;
+    justify-content: flex-start;
+    }
+}
+
+
+
+.careers-benefits-row::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+.careers-benefits-row::-webkit-scrollbar {
+    background: transparent;
+    width:0;
+    border:none;
+    background-color:transparent;
+}
+
+
+.careers-benefits-card {
+    background-color: $white;
+    flex-basis: 23.55%;
+    padding: 38px 11px;
+    border-radius: 13px;
+    gap: 10px;
+    @extend %flex-container;
+    flex-direction: column;
+    @include break(1399) {
+        flex-basis: 23.55%;
+    }
+    @include break(1199) {
+        flex-basis: 24.4%;
+    }
+    @include break(991) {
+    flex-basis: 49.1%;
+    }
+    @include break(767) {
+    align-items: start;
+    flex-basis: 49%;
+    gap: 0;
+    }
+    @include break(575) {
+    min-width: 262px;
+    flex-basis: 100%;
+    }
+}
+
+.careers-benefits-card img {
+    width: 34px;
+    @include break(767) {
+    width: 100%;
+    }
+}
+
+.careers-benefits-header {
+    @extend %font-55-2;
+    @include break(767) {
+    text-align: left
+    }
+}
+
+.careers-benefits-description {
+    @extend %font-55-1;
+    color: $lynch;
+    @include break(767) {
+    text-align: left;
+    }
+}

@@ -1,0 +1,118 @@
+@import "settings/color.scss";
+@import "settings/mixin.scss";
+@import "settings/fonts-and-botton.scss";
+@import "settings/flex.scss";
+
+.careers-culture-info-section {
+    text-align: center;
+    max-width: 572px;
+    margin: 0 auto 70px;
+    @include break(1399) {
+    margin: 0 auto 100px;
+    }
+    @include break(991) {
+    margin: 0 auto 60px;
+    }
+    @include break(767) {
+    margin: 0 auto 50px;
+    }
+}
+
+.careers-culture-title {
+    @extend %font-2-1;
+    color: $haliteBlue;
+    margin-bottom: 12px;
+}
+
+.careers-culture-description {
+    @extend %font-10-1;
+    color: $lynch;
+}
+
+.careers-culture-video-content {
+    @extend %flex-center;
+}
+
+.careers-culture-video-content iframe {
+    display: none;
+    aspect-ratio: 16/9;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 15px;
+}
+
+.careers-culture-video-content .wp-video {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.careers-culture-video-content .wp-video  .wp-video-shortcode{
+    display: none;
+    justify-content: center;
+    width: 1100px !important;
+    height: 619px !important;
+    border-radius: 15px !important;
+    @include break(1399) {
+    width: 1023px !important;
+    height: 575px !important;
+    }
+    @include break(1199) {
+    width: 936px !important;
+    height: 526px !important;
+    }
+    @include break(991) {
+    width: 696px !important;
+    height: 391px !important;
+    }
+    @include break(767) {
+    width: 100% !important;
+    height: 290px !important;
+    }
+    @include break(575) {
+    max-width: 100% !important;
+    height: 310px !important;
+    }
+    @include break(320) {
+    max-width: 100% !important;
+    height: 166px !important;
+    }
+}
+.careers-culture-youtube-image-video-cover {
+    max-width: 1100px;
+    max-height: 619px;
+    margin: 0 auto;
+    cursor: pointer;
+    @include break(1399) {
+    width: 1023px;
+    height: 575px;
+    }
+    @include break(1199) {
+    width: 936px;
+    height: 526px;
+    }
+    @include break(991) {
+    width: 696px;
+    height: 391px;
+    }
+    @include break(767) {
+    width: 516px;
+    height: 290px;
+    }
+    @include break(575) {
+    width: 100%;
+    height: auto;
+    }
+}
+
+.careers-culture-video-youtube-image {
+    max-width: 100%;
+    @include break(767){
+    border-radius: 20px;
+    }
+    @include break(575){
+    border-radius: 25px;
+    }
+}

@@ -1,0 +1,164 @@
+@import "settings/color.scss";
+@import "settings/mixin.scss";
+@import "settings/fonts-and-botton.scss";
+@import "settings/flex.scss";
+
+
+.careers-work-container {
+    max-width: 670px;
+    margin: 0 auto;
+}
+
+.careers-work-info {
+    @include break(767) {
+    max-width: 440px;
+    margin: 0 auto;
+    }
+}
+
+.careers-work-info-section {
+    @extend %flex-column-center;
+    text-align: center;
+    margin-bottom: 100px;
+    @include break(1199) {
+    margin-bottom: 85px;
+    }
+    @include break(991) {
+    margin-bottom: 47px;
+    }
+    @include break(767) {
+    margin-bottom: 50px;
+    }
+    @include break(575) {
+    margin: 0px 12px 50px 12px;
+    }
+}
+
+.careers-btn {
+    display: block;
+    text-align: center;
+}
+
+.careers-work-title {
+    @extend %light-blue-text-gradient-color;
+    margin-bottom: 14px;
+    @extend %font-1-1;
+}
+
+.careers-work-description {
+    color: $haliteBlue;
+    margin-bottom: 20px;
+    @extend %font-3-1;
+}
+
+.careers-work-text {
+    @extend %font-10-1;
+    color: $lynch;
+}
+
+.careers-work-mission-container {
+    background-image: url('/assets/images/we_work_background.webp');
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: contain;
+    @extend %flex-column-end;
+    background-position-y: 0px;
+    border-radius: 16px;
+}
+
+.careers-work-section .container {
+    @include break(767) {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    }
+}
+
+.careers-work-mission {
+    background: $aliceBlue;
+    max-width: 1091px;
+    margin: 360px auto 0px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 79px 188px;
+    position: relative;
+    @extend %flex-column;
+    align-items: center;
+    @include break(1399) {
+    max-width: 1023px;
+    padding: 53px 153px 80px;
+    margin: 275px auto 0;
+    }
+    @include break(1199) {
+    max-width: 858px;
+    padding: 68px 104px 74px;
+    gap: 0;
+    margin: 275px auto 0;
+    }
+    @include break(991) {
+    max-width: 629px;
+    padding: 47px 82px;
+    margin: 260px auto 0;
+    }
+    @include break(767) {
+    max-width: 516px;
+    padding: 35px 58px 44px;
+    margin: 160px auto 0;
+    }
+    @include break(575) {
+    padding: 28px 18px;
+    max-width: 100%;
+    text-align: left;
+    align-items: start;
+    margin: 0 12px;
+    margin: 97px 12px 0;
+    }
+    @include break(296) {
+    max-width: 296px;
+    }
+}
+
+.careers-work-mission-header {
+    @extend %font-10-2;
+    color: $white;
+    background-color: $brightBlue;
+    border-radius: 23px;
+    padding: 7px 17px;
+    width: fit-content;
+    margin-bottom: 30px;
+    @include break(1199) {
+    margin-bottom: 30px
+    }
+    @include break(767) {
+    margin-bottom: 20px;
+    }
+    @include break(575) {
+    margin-bottom: 14px;
+    }
+}
+
+.careers-work-mission-title {
+    @extend %font-2-1;
+    color: $brightBlue;
+    margin-bottom: 30px;
+    @include break(1399) {
+    margin-bottom: 20px;
+    }
+    @include break(767) {
+    margin-bottom: 14px;
+    }
+}
+
+.careers-work-mission-description {
+    margin-bottom: 30px;
+    @extend %font-10-1;
+    color: $lynch;
+    @include break(1199) {
+    margin-bottom: 0px;
+    }
+}
+
+.careers-work-mission-text {
+    @extend %font-10-1;
+    color: $lynch;
+}

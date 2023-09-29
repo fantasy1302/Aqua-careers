@@ -1,0 +1,130 @@
+@import "settings/color.scss";
+@import "settings/mixin.scss";
+@import "settings/fonts-and-botton.scss";
+@import "settings/flex.scss";
+
+
+.careers-values-container {
+    background-color: $brightBlue;
+    border-radius: 17px;
+    @include break(575) {
+        border-radius: 0;
+    }
+}
+
+.careers-values-info-section {
+    padding: 100px 130px;
+    @include break(1399) {
+    padding: 100px 44px;
+    }
+    @include break(1199) {
+    padding: 64px 13.5px;
+    }
+    @include break(991) {
+    padding: 33px 12px;
+    }
+}
+
+.careers-values-title {
+    @extend %font-2-1;
+    color: $white;
+    text-align: center;
+    margin-bottom: 50px;
+    @include break(767) {
+    margin-bottom: 60px;
+    }
+    @include break(575) {
+    margin-bottom: 50px;
+    }
+}
+
+.careers-values-row {
+    display: flex;
+    
+    gap: 28px;
+    @include break(1199) {
+    gap: 6px;
+    }
+    @include break(767) {
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 18px;
+    }
+    @include break(575) {
+    margin: 0;
+    }
+}
+
+.careers-values-section .container {
+    @include break(767) {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    }
+}
+
+.careers-values-card {
+    background: $white;
+    border-radius: 17px;
+    padding: 30px;
+    @extend %flex-start-column-align-start;
+    flex-basis: 33.3%;
+    @include break(1199) {
+    padding: 37px 19px;
+    }
+    @include break(991) {
+    padding: 22px 18px;
+    }
+    @include break(767) {
+    padding: 24px 33px;
+    }
+    @include break(575) {
+    padding: 18px 24px;
+    }
+}
+
+.careers-values-card img {
+    width: 56px;
+    @include break(1199) {
+    width: 40px;
+    }
+    @include break(767) {
+    width: 32px;
+    height: 32px;
+    }
+}
+
+.careers-values-card-title {
+    @extend %flex-nowrap-container;
+    flex-direction: column;
+    @include break(767) {
+    flex-direction: row;
+    justify-content: start;
+    gap: 12px;
+    margin-bottom: 6px;
+    }
+    @include break(575) {
+    flex-direction: column;
+    }
+}
+
+.careers-values-header {
+    @extend %font-4-1;
+    color: $haliteBlue;
+    margin-top: 19px;
+    margin-bottom: 12px;
+    @include break(767) {
+    margin: 0px;
+    }
+}
+
+.careers-values-description {
+    color: $lynch;
+    @extend %font-12-1;
+    @include break(767) {
+    margin-left: 44px;
+    }
+    @include break(575) {
+    margin-left: 0;
+    }
+}
